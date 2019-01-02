@@ -1,0 +1,49 @@
+<html>
+<head>
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add venobox -->
+<link rel="stylesheet" href="venobox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="venobox.min.js"></script>
+<script type="text/javascript">
+		 $(document).ready(function(){
+			$('.venobox').venobox({
+				numeratio: false,
+				infinigall: false,
+				border: '20px'
+			});
+			$('.venoboxvid').venobox({
+				bgcolor: '#000'
+			});
+			$('.venoboxframe').venobox({
+				border: '6px'
+			});
+			$('.venoboxinline').venobox({
+				framewidth: '300px',
+				frameheight: '250px',
+				border: '6px',
+				bgcolor: '#f46f00'
+			});
+			$('.venoboxajax').venobox({
+				border: '30px;',
+				frameheight: '220px'
+			});
+		})
+	</script>
+ </head>
+<body>
+
+<div class="venobox">
+					<div class="wrap">
+						<a class="venobox" data-type="iframe" href="http://www.veno.it">Open Iframe</a>
+						<div class="vbox-num">0/0</div>
+				
+				</div>
+
+
+			</div>
+</body>
+</html>

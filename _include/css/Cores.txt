@@ -1,0 +1,5 @@
+#6CAFD1; azul
+
+#c5bca1 cococ
+
+background-color: rgba(78, 73, 70, 0.5);
